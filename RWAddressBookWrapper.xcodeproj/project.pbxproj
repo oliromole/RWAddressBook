@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3061A80D15D0F08E009F3E99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061A80C15D0F08E009F3E99 /* UIKit.framework */; };
+		3061A80F15D0F08E009F3E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061A80E15D0F08E009F3E99 /* Foundation.framework */; };
+		3061A81115D0F08E009F3E99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061A81015D0F08E009F3E99 /* CoreGraphics.framework */; };
+		3061A81915D0F08E009F3E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061A81815D0F08E009F3E99 /* main.m */; };
+		3061A81D15D0F08E009F3E99 /* RWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061A81C15D0F08E009F3E99 /* RWAppDelegate.m */; };
+		3061A84715D0F0E7009F3E99 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061A84615D0F0E7009F3E99 /* CoreFoundation.framework */; };
+		3061A84915D0F0EC009F3E99 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061A84815D0F0EC009F3E99 /* AddressBook.framework */; };
+		3061A84E15D0F247009F3E99 /* RWAddressBookWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061A84D15D0F247009F3E99 /* RWAddressBookWrapper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3061A80815D0F08E009F3E99 /* RWAddressBookWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWAddressBookWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3061A80C15D0F08E009F3E99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3061A80E15D0F08E009F3E99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3061A81015D0F08E009F3E99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3061A81415D0F08E009F3E99 /* RWAddressBookWrapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RWAddressBookWrapper-Info.plist"; sourceTree = "<group>"; };
+		3061A81815D0F08E009F3E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3061A81A15D0F08E009F3E99 /* RWAddressBookWrapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RWAddressBookWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		3061A81B15D0F08E009F3E99 /* RWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWAppDelegate.h; sourceTree = "<group>"; };
+		3061A81C15D0F08E009F3E99 /* RWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWAppDelegate.m; sourceTree = "<group>"; };
+		3061A84615D0F0E7009F3E99 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		3061A84815D0F0EC009F3E99 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		3061A84C15D0F247009F3E99 /* RWAddressBookWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWAddressBookWrapper.h; sourceTree = "<group>"; };
+		3061A84D15D0F247009F3E99 /* RWAddressBookWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWAddressBookWrapper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3061A80515D0F08E009F3E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3061A84915D0F0EC009F3E99 /* AddressBook.framework in Frameworks */,
+				3061A80F15D0F08E009F3E99 /* Foundation.framework in Frameworks */,
+				3061A81115D0F08E009F3E99 /* CoreGraphics.framework in Frameworks */,
+				3061A84715D0F0E7009F3E99 /* CoreFoundation.framework in Frameworks */,
+				3061A80D15D0F08E009F3E99 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3061A7FD15D0F08E009F3E99 = {
+			isa = PBXGroup;
+			children = (
+				3061A81215D0F08E009F3E99 /* RWAddressBookWrapper */,
+				3061A80B15D0F08E009F3E99 /* Frameworks */,
+				3061A80915D0F08E009F3E99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3061A80915D0F08E009F3E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3061A80815D0F08E009F3E99 /* RWAddressBookWrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3061A80B15D0F08E009F3E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3061A84815D0F0EC009F3E99 /* AddressBook.framework */,
+				3061A84615D0F0E7009F3E99 /* CoreFoundation.framework */,
+				3061A81015D0F08E009F3E99 /* CoreGraphics.framework */,
+				3061A80E15D0F08E009F3E99 /* Foundation.framework */,
+				3061A80C15D0F08E009F3E99 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3061A81215D0F08E009F3E99 /* RWAddressBookWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				3061A84B15D0F239009F3E99 /* RWAddressBookWrapper */,
+				3061A81B15D0F08E009F3E99 /* RWAppDelegate.h */,
+				3061A81C15D0F08E009F3E99 /* RWAppDelegate.m */,
+				3061A81315D0F08E009F3E99 /* Supporting Files */,
+			);
+			path = RWAddressBookWrapper;
+			sourceTree = "<group>";
+		};
+		3061A81315D0F08E009F3E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3061A81415D0F08E009F3E99 /* RWAddressBookWrapper-Info.plist */,
+				3061A81815D0F08E009F3E99 /* main.m */,
+				3061A81A15D0F08E009F3E99 /* RWAddressBookWrapper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3061A84B15D0F239009F3E99 /* RWAddressBookWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				3061A84C15D0F247009F3E99 /* RWAddressBookWrapper.h */,
+				3061A84D15D0F247009F3E99 /* RWAddressBookWrapper.m */,
+			);
+			path = RWAddressBookWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3061A80715D0F08E009F3E99 /* RWAddressBookWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3061A83A15D0F08E009F3E99 /* Build configuration list for PBXNativeTarget "RWAddressBookWrapper" */;
+			buildPhases = (
+				3061A80415D0F08E009F3E99 /* Sources */,
+				3061A80515D0F08E009F3E99 /* Frameworks */,
+				3061A80615D0F08E009F3E99 /* Resources */,
+				3061A84A15D0F0FB009F3E99 /* Enable Comment Tags */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWAddressBookWrapper;
+			productName = RWAddressBookWrapper;
+			productReference = 3061A80815D0F08E009F3E99 /* RWAddressBookWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3061A7FF15D0F08E009F3E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RW;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Oliromole;
+			};
+			buildConfigurationList = 3061A80215D0F08E009F3E99 /* Build configuration list for PBXProject "RWAddressBookWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3061A7FD15D0F08E009F3E99;
+			productRefGroup = 3061A80915D0F08E009F3E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3061A80715D0F08E009F3E99 /* RWAddressBookWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3061A80615D0F08E009F3E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3061A84A15D0F0FB009F3E99 /* Enable Comment Tags */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Enable Comment Tags";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3061A80415D0F08E009F3E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3061A81915D0F08E009F3E99 /* main.m in Sources */,
+				3061A81D15D0F08E009F3E99 /* RWAppDelegate.m in Sources */,
+				3061A84E15D0F247009F3E99 /* RWAddressBookWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3061A83815D0F08E009F3E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3061A83915D0F08E009F3E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3061A83B15D0F08E009F3E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RWAddressBookWrapper/RWAddressBookWrapper-Prefix.pch";
+				INFOPLIST_FILE = "RWAddressBookWrapper/RWAddressBookWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3061A83C15D0F08E009F3E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RWAddressBookWrapper/RWAddressBookWrapper-Prefix.pch";
+				INFOPLIST_FILE = "RWAddressBookWrapper/RWAddressBookWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3061A80215D0F08E009F3E99 /* Build configuration list for PBXProject "RWAddressBookWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061A83815D0F08E009F3E99 /* Debug */,
+				3061A83915D0F08E009F3E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3061A83A15D0F08E009F3E99 /* Build configuration list for PBXNativeTarget "RWAddressBookWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3061A83B15D0F08E009F3E99 /* Debug */,
+				3061A83C15D0F08E009F3E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3061A7FF15D0F08E009F3E99 /* Project object */;
+}

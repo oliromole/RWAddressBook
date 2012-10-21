@@ -15,6 +15,7 @@
 		3061A84715D0F0E7009F3E99 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061A84615D0F0E7009F3E99 /* CoreFoundation.framework */; };
 		3061A84915D0F0EC009F3E99 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3061A84815D0F0EC009F3E99 /* AddressBook.framework */; };
 		3061A84E15D0F247009F3E99 /* RWAddressBookWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061A84D15D0F247009F3E99 /* RWAddressBookWrapper.m */; };
+		307BD6361634B31200178FC2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 307BD6351634B31200178FC2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3061A84815D0F0EC009F3E99 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		3061A84C15D0F247009F3E99 /* RWAddressBookWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWAddressBookWrapper.h; sourceTree = "<group>"; };
 		3061A84D15D0F247009F3E99 /* RWAddressBookWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWAddressBookWrapper.m; sourceTree = "<group>"; };
+		307BD6351634B31200178FC2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				3061A81B15D0F08E009F3E99 /* RWAppDelegate.h */,
 				3061A81C15D0F08E009F3E99 /* RWAppDelegate.m */,
 				3061A81315D0F08E009F3E99 /* Supporting Files */,
+				307BD6331634B31200178FC2 /* Resources */,
 			);
 			path = RWAddressBookWrapper;
 			sourceTree = "<group>";
@@ -106,6 +109,22 @@
 				3061A84D15D0F247009F3E99 /* RWAddressBookWrapper.m */,
 			);
 			path = RWAddressBookWrapper;
+			sourceTree = "<group>";
+		};
+		307BD6331634B31200178FC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				307BD6341634B31200178FC2 /* System */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		307BD6341634B31200178FC2 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				307BD6351634B31200178FC2 /* Default-568h@2x.png */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307BD6361634B31200178FC2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +222,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -213,8 +234,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
@@ -227,12 +250,15 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
